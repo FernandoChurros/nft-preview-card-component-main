@@ -1,0 +1,27 @@
+@media only screen and (min-width: 700px) {
+
+	.title:hover, .author_name:hover {
+		cursor: pointer;
+		color: hsl(178, 100%, 50%);
+	}
+
+	.photo_active {
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		transition: background-color .5s;
+	}
+
+	.photo_active:hover {
+		opacity: 70%;
+		cursor: pointer;
+		background: url("../images/icon-view.svg") hsl(178, 100%, 50%) center no-repeat;
+	}
+
+	.container_photo-banner {
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+}

@@ -1,0 +1,78 @@
+.body {
+	background-color: hsl(217, 54%, 11%);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_main {
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 20px;
+	padding: 1.5rem;
+	display: flex;
+	flex-flow: column;
+	grid-gap: 1rem;
+}
+
+.photo_banner {
+	border-radius: 20px;
+	height: 100%;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 22px;
+	color: hsl(0, 0%, 100%);
+}
+
+.paragraph {
+	color: hsl(215, 51%, 70%);
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info_div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: .3rem;
+	line-height: 0;
+}
+
+.paragraph_cyan {
+	color: hsl(178, 100%, 50%);
+}
+
+.paragraph_soft-blue {
+	color: hsl(215, 51%, 70%);
+}
+
+.author {
+	display: flex;
+	align-items: center;
+	column-gap: 1rem;
+}
+
+.img_avatar {
+	border: 2px solid #FFF;
+	border-radius: 50%;
+	width: 50px;
+}
+
+.author_name {
+	color: #FFF;
+}
+
+.border {
+	height: 2px;
+	background-color: hsl(215, 32%, 27%);
+}
